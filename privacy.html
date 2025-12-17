@@ -3,84 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AIVO Privacy Policy">
-  <title>AIVO - Privacy Policy</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>AIVO Privacy Policy</title>
+  <script>
+    (function() {
+      const userLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      let target = '/en/privacy.html';
+      
+      if (userLang.startsWith('zh')) target = '/zh/privacy.html';
+      else if (userLang.startsWith('ja')) target = '/ja/privacy.html';
+      else if (userLang.startsWith('ko')) target = '/ko/privacy.html';
+      
+      const basePath = window.location.pathname.replace(/\/privacy\.html$/, '').replace(/\/$/, '');
+      window.location.replace(basePath + target);
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=./en/privacy.html">
+  </noscript>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="logo">🌟 AIVO</div>
-      <nav class="lang-switch">
-        <a href="en/">EN</a>
-        <a href="zh/">中文</a>
-        <a href="ja/">日本語</a>
-        <a href="ko/">한국어</a>
-      </nav>
-    </header>
-    
-    <main>
-      <section class="hero">
-        <h1>Privacy Policy</h1>
-        <p class="subtitle">Last updated: December 17, 2025</p>
-      </section>
-      
-      <section class="content">
-        <h2>Our Commitment to Your Privacy</h2>
-        <p>AIVO is designed with privacy as a core principle. We believe your personal data belongs to you and you alone.</p>
-        
-        <div class="faq-item" style="border-color: #22c55e;">
-          <h3>🔒 We Do Not Collect Your Data</h3>
-          <p>AIVO does not collect, store, or transmit any personal information to our servers. All your data stays on your device.</p>
-        </div>
-        
-        <h2>How AIVO Works</h2>
-        
-        <div class="faq-item">
-          <h3>Local Storage</h3>
-          <p>All your data, including preferences, records, and content you create, is stored locally on your device. We have no access to this information.</p>
-        </div>
-        
-        <div class="faq-item">
-          <h3>iCloud Sync (Optional)</h3>
-          <p>If you choose to enable iCloud sync, your data is synchronized across your devices using Apple's iCloud service. This data is encrypted and stored in your personal iCloud account, managed entirely by Apple. We do not have access to your iCloud data.</p>
-        </div>
-        
-        <h2>What We Don't Do</h2>
-        <ul style="color: var(--color-text-muted); margin-left: 24px; margin-bottom: 16px;">
-          <li>❌ We do not collect personal information</li>
-          <li>❌ We do not track your location</li>
-          <li>❌ We do not use analytics or tracking tools</li>
-          <li>❌ We do not share data with third parties</li>
-          <li>❌ We do not display advertisements</li>
-        </ul>
-        
-        <h2>Third-Party Services</h2>
-        <p>AIVO uses Apple's iCloud for optional data synchronization. Apple's privacy policy governs how your iCloud data is handled. You can review <a href="https://www.apple.com/legal/privacy/" style="color: var(--color-primary);">Apple's Privacy Policy</a> for more information.</p>
-        
-        <h2>Your Control</h2>
-        <p>You have complete control over your data:</p>
-        <ul style="color: var(--color-text-muted); margin-left: 24px; margin-bottom: 16px;">
-          <li>Delete the app to remove all local data</li>
-          <li>Disable iCloud sync in your device settings</li>
-          <li>Manage your iCloud data through Apple's settings</li>
-        </ul>
-        
-        <h2>Children's Privacy</h2>
-        <p>Since we do not collect any personal data, AIVO is safe for users of all ages.</p>
-        
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated revision date.</p>
-        
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us:</p>
-        <a href="mailto:peer2peer.wang@gmail.com" class="email-btn">📧 peer2peer.wang@gmail.com</a>
-      </section>
-    </main>
-    
-    <footer>
-      <p>© 2025 AIVO. All rights reserved.</p>
-    </footer>
-  </div>
+  <p>Redirecting...</p>
 </body>
 </html>
